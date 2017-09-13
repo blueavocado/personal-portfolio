@@ -1,0 +1,19 @@
+{
+  "name": "ben",
+  "version": "1.0.0",
+  "description": "ben portfolio",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-compass": "^2.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2"
+  },
+  "scripts": {
+    "test": "hello"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,206 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: white;
+    font-family: Vollkorn;
+    background: #29666f;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Vollkorn";
+    src: url('../fonts/Vollkorn.Regular.eot') format('embedded-opentype'),
+    url('../fonts/Vollkorn.Regular.otf') format('opentype');
+}
+
+.btn {
+    color: #29666f;
+    background: white;
+    border: 2px solid white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.25;
+    min-width: 90px;
+    padding: 8px 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    transition: 0.25s ease all;
+
+    &:hover, &:active, &:focus {
+        color: white;
+        background: #29666f;
+        border: 2px solid white;
+    }
+}
+
+.blue-avacado-body {
+
+    .blue-avacado-top {
+        padding-bottom: 20px;
+        border-bottom: 2px solid white;
+
+        .wrapper {
+            width: 100%;
+            max-width: 960px;
+            margin: 20px auto 0;
+            display: block;
+
+            .block-left {
+
+            }
+
+            .block-right {
+                text-align: right;
+            }
+        }
+    }
+
+    .blue-avacado-banner {
+        width: 100%;
+        max-width: 960px;
+        margin: 20px auto 0;
+        display: block;
+
+        .wrapper {
+
+            .block-left {
+
+                img {
+                     width: 100%
+                }
+            }
+    
+            .block-right {
+                text-align: left;
+
+                h1 {
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                    margin-top: 0;
+                    text-transform: capitalize;
+                }
+
+                h2 {
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    margin-top: 0;
+                    text-transform: capitalize;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+
+                span {
+                    color: #ff6b71;
+                    font-weight: 600;
+                }
+            }
+        }        
+    }
+
+    .section-bg {
+        background: black;
+        height: auto;
+
+        .blue-avacado-technologies-header {
+            width: 100%;
+            margin: 30px auto;
+           
+            .wrapper {
+                width: 100%;
+                max-width: 960px;
+                margin: 0 auto;
+                display: block;
+                text-align: center;
+
+                .block {
+
+                    h2 {
+                        font-size: 28px;
+                        text-transform: capitalize;
+                        font-style: italic;
+                        color: #ff6b71;
+                    }
+
+                    span {
+                        width: 200px;
+                        border-bottom: 4px dotted white;
+                        display: block;
+                        margin: 10px auto 0
+                    }
+                }
+            }
+        }
+
+        .blue-avacado-technologies-body {
+            width: 100%;
+            max-width: 960px;     
+            margin: 20px auto 0;
+            display: block;
+
+            .wrapper {
+
+                img {
+                    width: 290px;
+                    margin: auto;
+                }
+
+                .git {
+                    width: 260px;
+                }
+
+                .gulp {
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    .blue-avacado-about-me {
+        width: 100%;
+        max-width: 960px;
+        margin: 20px auto 0;
+        display: block;
+
+        .wrapper {
+
+            .block-left {
+                h2 {
+                    font-size: 22px;
+                    text-transform: capitalize;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+
+            .block-right {
+                h2 {
+                    font-size: 22px;
+                    text-transform: capitalize;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+
+                img {
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
+
+
+  
